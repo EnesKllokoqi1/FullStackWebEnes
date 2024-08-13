@@ -134,3 +134,29 @@ z-index:1
 *{
     box-sizing:border-box;
 }
+/* vertical menu */
+
+#vertical-menu{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    width:25%;
+    background-color: #f7eaea ;
+    position:fixed;
+    height:100%;
+    overflow:auto;
+}
+#vertical-menu li a{
+    display:block;
+    color:grey;
+    padding:8px 16px;
+    text-decoration:none;
+}
+#vertical-menu li a.active{
+    background-color:#4caf50;
+    color:white;
+}
+#vertical-menu li a:hover:not(a.active){
+    color:white;
+    background-color:grey;
+}
